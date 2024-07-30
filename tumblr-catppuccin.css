@@ -1,0 +1,112 @@
+/* ==UserStyle==
+@name           Catppuccin Tumblr
+@author         rwntr
+@version        0.1
+==/UserStyle== */
+@-moz-document url-prefix("http://www.tumblr.com/"), url-prefix("https://www.tumblr.com/"){
+  
+
+ /* if you want to change the accent color just ctrl+f #94e2d5 and
+    replace it with a hex code of your choice.
+    
+    */
+    
+    
+.gPQR5, .D5eCV, .a8XCP, .jV8QC, .kk3cQ{ 
+   font-family: Iosevka NFM; color: #cdd6f4;
+   background: rgb(30, 30, 46) !important;
+   --icon-color-primary:  #fff !important;
+    border: 0px solid #cdd6f4 !important;
+ }
+
+    /*hides some annoying ad/premium shit*/
+    .Qihwb, .YjoFC {
+        display: none;
+    }
+
+    /* hides other ppl's badges on posts*/
+    .dMXm8{
+        display: none;
+    }
+    
+    .I_SFh {
+        color: #cdd6f4;
+    }
+    
+    .jGgIg .ML6ef{
+        background-color: #1e1e2e;
+        color: #cdd6f4;
+    }
+    
+    .sSq2h .wl0Ka, .sSq2h.wl0Ka{
+        box-shadow: inset 0px -2px 0px #94e2d5;
+    }
+    
+.xhGbM {
+    background-color: transparent !important;
+}
+    
+.f68ED { 
+   font-family: Iosevka NFM; color: #cdd6f4;
+   background: rgba(255, 0, 0, 0) !important;
+   --icon-color-primary:  #cdd6f4 !important;
+    border: 0px solid #cdd6f4 !important;
+ }
+    
+.BjErQ, .u2tXn, .SaLOl, .ZUy1d, .ekBJX, .ZUy1d, .zC1fG { 
+   font-family: Iosevka NFM; color: #cdd6f4;
+   background: #1e1e2e !important;
+   color: #cdd6f4 !important;
+   --icon-color-primary:  #cdd6f4 !important;
+    border: 0px solid #cdd6f4 !important;
+          
+    }
+    
+ use { 
+   font-family: Iosevka NFM; color: #cdd6f4;   
+   color: #cdd6f4 !important;
+   --icon-color-primary:  #cdd6f4 !important;
+
+ }
+
+
+    
+.FtjPK, ._3kR_, ._3kR_, .uM3pd, .xXvvU, .PsDsm, .wdSm_ , .jBtpD, .GcA7R, .AzqQv, .D0OOd, .qn4rB .bjtTv{ 
+   font-family: Iosevka NFM; color: #cdd6f4 !important;
+   background: #1e1e2e !important;
+   --icon-color-primary:  #cdd6f4 !important;
+    border: 0px dotted #cdd6f4 !important;
+ }
+    
+    :root {
+        --icon-color-primary:  #94e2d5 !important;;
+        --secondary-accent: ##94e2d5 !important;;
+        --accent:  #94e2d5 !important;;
+        --white: #cdd6f4 !important;;
+        --black: #1e1e2e !important;;
+        --white-on-dark: #cdd6f4 !important;;
+        --navy: #1e1e2e !important;;
+        --red: #94e2d5 !important;;
+        --orange: #94e2d5 !important;;
+        --yellow: #94e2d5 !important;;
+        --green: #94e2d5 !important;;
+        --blue: #94e2d5 !important;;
+        --purple: #94e2d5 !important;;
+        --pink: #94e2d5 !important;;
+        --color-title: #94e2d5 !important;;
+        --color-text: #94e2d5 !important;;
+        --color-subtext: #94e2d5 !important;;
+        --color-primary-link: #94e2d5 !important;;
+        --color-bluespace-background:#ffd2e8 !important;;
+        --color-bluespace-card-background: rgba(var(--white-on-dark), 0.07);
+        --color-modal-close-button: rgb(var(--navy));
+        --color-modal-close-button-background: rgb(var(--white-on-dark));
+        --font-family: "Iosevka NFM", "Iosevka NFM", "Iosevka NFM", Helvetica, Iosevka NFM, sans-serif;
+        --border-radius-small: 3px;
+        --follow:  ##94e2d5 !important;;
+         --managed-icon__badge-reblog: #94e2d5 !important;;
+        
+    }
+<svg xmlns="http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd" height="33" width="20" class="GjGsN" role="presentation" style="--icon-color-primary:RGB(var(--white-on-dark));"><use href="#managed-icon__logo-t"></use></svg>
+}
+
