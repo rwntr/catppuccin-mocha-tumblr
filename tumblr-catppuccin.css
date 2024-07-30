@@ -1,7 +1,10 @@
 /* ==UserStyle==
-@name           Catppuccin Tumblr
+@name           catppuccin mocha tumblr
+@namespace      USO Archive
 @author         rwntr
+@description    `catppuccin mocha tumblr`
 @version        0.1
+@preprocessor   uso
 ==/UserStyle== */
 @-moz-document url-prefix("http://www.tumblr.com/"), url-prefix("https://www.tumblr.com/"){
   
@@ -24,10 +27,14 @@
         display: none;
     }
 
-    /* hides other ppl's badges on posts*/
     .dMXm8{
         display: none;
     }
+    
+    .mKLR_, .EvhBA, .kyh7r .DBG9_{
+        color: #cdd6f4;
+    } 
+    
     
     .I_SFh {
         color: #cdd6f4;
@@ -42,32 +49,47 @@
         box-shadow: inset 0px -2px 0px #94e2d5;
     }
     
+     *.MOJMz{
+        background-color: #94e2d500 !important;
+        border: 0px solid white !important;
+        
+    }
+    
+    /* rounded corners for header bar when scrolling
+        doesn't look Optimal but looks better than the alternative*/
+    .uM3pd, .Ojie7{
+        border-radius: 10px;
+    }
+    
+    
 .xhGbM {
     background-color: transparent !important;
 }
     
 .f68ED { 
-   font-family: Iosevka NFM; color: #cdd6f4;
+   font-family: Iosevka NFM; color: #94e2d5;
    background: rgba(255, 0, 0, 0) !important;
    --icon-color-primary:  #cdd6f4 !important;
     border: 0px solid #cdd6f4 !important;
  }
     
-.BjErQ, .u2tXn, .SaLOl, .ZUy1d, .ekBJX, .ZUy1d, .zC1fG { 
-   font-family: Iosevka NFM; color: #cdd6f4;
+.BjErQ, .u2tXn, .SaLOl, .ZUy1d, .ekBJX, .ZUy1d, .zC1fG, .PwJi6 { 
+   font-family: Iosevka NFM; color: #cdd6f4 !important;
    background: #1e1e2e !important;
-   color: #cdd6f4 !important;
    --icon-color-primary:  #cdd6f4 !important;
     border: 0px solid #cdd6f4 !important;
           
     }
     
  use { 
-   font-family: Iosevka NFM; color: #cdd6f4;   
-   color: #cdd6f4 !important;
+   font-family: Iosevka NFM; color: #cdd6f4 !important; 
    --icon-color-primary:  #cdd6f4 !important;
 
  }
+    
+    .hF8Wr{
+        color: #cdd6f4;
+    }
 
 
     
@@ -80,7 +102,7 @@
     
     :root {
         --icon-color-primary:  #94e2d5 !important;;
-        --secondary-accent: ##94e2d5 !important;;
+        --secondary-accent: ##72c0b3 !important;;
         --accent:  #94e2d5 !important;;
         --white: #cdd6f4 !important;;
         --black: #1e1e2e !important;;
@@ -97,7 +119,7 @@
         --color-text: #94e2d5 !important;;
         --color-subtext: #94e2d5 !important;;
         --color-primary-link: #94e2d5 !important;;
-        --color-bluespace-background:#ffd2e8 !important;;
+        --color-bluespace-background:#79c5b8 !important;;
         --color-bluespace-card-background: rgba(var(--white-on-dark), 0.07);
         --color-modal-close-button: rgb(var(--navy));
         --color-modal-close-button-background: rgb(var(--white-on-dark));
@@ -107,6 +129,8 @@
          --managed-icon__badge-reblog: #94e2d5 !important;;
         
     }
+    
+   
 <svg xmlns="http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd" height="33" width="20" class="GjGsN" role="presentation" style="--icon-color-primary:RGB(var(--white-on-dark));"><use href="#managed-icon__logo-t"></use></svg>
 }
 
